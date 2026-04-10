@@ -1,0 +1,27 @@
+{
+  "name": "bg-remover",
+  "version": "0.1.0",
+  "description": "AI 背景移除工具 - 轻量级在线图片背景移除",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.28.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17",
+    "@cloudflare/next-on-pages": "^1.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
